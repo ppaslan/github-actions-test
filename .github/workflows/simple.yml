@@ -2,6 +2,8 @@ name: Shell Commands
 
 on: 
   pull_request:
+  repository_dispatch:
+    types: [build]
 #  schedule:
  #   - cron: "0/5 * * * *"
 
